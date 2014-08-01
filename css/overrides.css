@@ -1,0 +1,205 @@
+/* Overrides */
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../assets/fonts/roboto/Roboto-Regular-webfont.eot');
+    src: url('../assets/fonts/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('../assets/fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: 'robotoregular';
+  line-height: 1.5em;
+  letter-spacing: 0.05em; }
+
+img {
+  width: 100%;
+}
+
+.reveal {
+  font-size: 36px;
+}
+
+.reveal .list {
+  font-size: 48px;
+}
+
+/*body {
+  background:
+  linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+  linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #EC173A;
+}*/
+
+body {
+  background-color: white;
+}
+
+html.image body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+html.imagetext section {
+  background-color: rgba(227,227,227,0.55);
+}
+
+html.tools body {
+  background-image: url('../assets/images/9408028555_78328e818e_k.jpg');
+}
+
+html.me body {
+  background-image: url('../assets/images/me.gif');
+}
+
+html.main-title .reveal h1 {
+  line-height: 1em;
+  color: black;
+  font-weight: bolder;
+  text-shadow: white 2px 2px 0px, rgb(156, 156, 156) 4px 4px 0px;
+}
+
+html.started body {
+  background-image: url('../assets/images/started.gif');
+}
+
+html.get body {
+  background-image: url('../assets/images/shopping.gif');
+}
+
+html.gif-fail body {
+  background-image: url('../assets/images/tool-fail2.gif');
+}
+
+html.happy body {
+  background-image: url('../assets/images/happy.gif');
+}
+
+html.phpstorm body {
+  background-image: url('../assets/images/phpstorm.jpg');
+}
+
+html.xdebug body {
+  background-image: url('../assets/images/xdebug.jpg');
+}
+
+html.xhprof body {
+  background-image: url('../assets/images/xhprof.jpg');
+}
+
+html.devdesktop body {
+  background-image: url('../assets/images/devdesktop.jpg');
+}
+
+html.kalabox body {
+  background-image: url('../assets/images/kalabox.png');
+}
+
+html.vagrant body {
+  background-image: url('../assets/images/vagrant.jpg');
+}
+
+html.drush body {
+  background-image: url('../assets/images/drush.gif');
+}
+
+html.drushphp body {
+  background-image: url('../assets/images/drushphp.gif');
+}
+
+html.drushmake body {
+  background-image: url('../assets/images/drushmake.gif');
+}
+
+html.sequel body {
+  background-image: url('../assets/images/sequel-pro.jpg');
+}
+
+html.w3v4l body {
+  background-image: url('../assets/images/3v4l.jpg');
+}
+
+html.puphpet body {
+  background-image: url('../assets/images/puphpet.jpg');
+}
+
+html.postman body {
+  background-image: url('../assets/images/postman.jpg');
+}
+
+html.httpconsole body {
+  background-image: url('../assets/images/httpconsole.gif');
+}
+
+html.boris body {
+  background-image: url('../assets/images/boris.gif');
+}
+
+html.localtunnel body {
+  background-image: url('../assets/images/localtunnel.gif');
+}
+
+html.charles body {
+  background-image: url('../assets/images/charles.jpg');
+}
+
+html.mailcatcher body {
+  background-image: url('../assets/images/mailcatcher.png');
+}
+
+html.growl body {
+  background-image: url('../assets/images/growl.png');
+}
+
+html.monosnap body {
+  background-image: url('../assets/images/monosnap.jpg');
+}
+
+html.dash body {
+  background-image: url('../assets/images/dash.jpg');
+}
+
+html.kaleidoscope body {
+  background-image: url('../assets/images/kaleidoscopeapp.png');
+}
+
+html.istat body {
+  background-image: url('../assets/images/istatmenus.png');
+}
+
+html.alfred body {
+  background-image: url('../assets/images/alfredapp.jpg');
+}
+
+html.cloak body {
+  background-image: url('../assets/images/cloak.png');
+}
+
+html.late body {
+  background-image: url('../assets/images/5656312591_2db5967ed8_o.png');
+}
+
+html.spin body {
+  background-image: url('../assets/images/spin.gif');
+}
+
+html.set body {
+  background-image: url('../assets/images/sunset.gif');
+}
+
+html.done body {
+  background-image: url('../assets/images/done.gif');
+}
+
+html.thanks body {
+  background-image: url('../assets/images/thanks.gif');
+}
