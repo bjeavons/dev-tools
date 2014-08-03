@@ -36,6 +36,11 @@ head.js "scripts/zepto.js", "reveal.js/plugin/markdown/marked.js", "scripts/pres
         condition: -> !document.body.classList
       }
       {
+        src: 'reveal.js/plugin/notes/notes.js'
+        async: true
+        condition: -> !!document.body.classList
+      }
+      {
         src: 'reveal.js/plugin/highlight/highlight.js'
         async: true
         callback: -> hljs.initHighlightingOnLoad()

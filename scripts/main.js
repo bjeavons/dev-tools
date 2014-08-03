@@ -21,6 +21,12 @@
             return !document.body.classList;
           }
         }, {
+          src: 'reveal.js/plugin/notes/notes.js',
+          async: true,
+          condition: function() {
+            return !!document.body.classList;
+          }
+        }, {
           src: 'reveal.js/plugin/highlight/highlight.js',
           async: true,
           callback: function() {

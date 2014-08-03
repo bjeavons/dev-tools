@@ -49,6 +49,13 @@ html.image body {
   height: 100%;
 }
 
+html.quote .reveal cite {
+  float: right;
+  padding-right: 20px;
+  font-size: 90%;
+  margin-top: 40px;
+}
+
 html.imagetext section {
   background-color: rgba(227,227,227,0.55);
 }
@@ -61,6 +68,10 @@ html.me body {
   background-image: url('../assets/images/me.gif');
 }
 
+html.card body {
+  background-image: url('../assets/images/card.png');
+}
+
 html.main-title .reveal h1 {
   line-height: 1em;
   color: black;
@@ -68,8 +79,28 @@ html.main-title .reveal h1 {
   text-shadow: white 2px 2px 0px, rgb(156, 156, 156) 4px 4px 0px;
 }
 
+html.internet body {
+  background-image: url('../assets/images/internet.gif');
+}
+
+html.dos body {
+  background-image: url('../assets/images/dos.gif');
+}
+
+html.aol body {
+  background-image: url('../assets/images/aol.gif');
+}
+
+html.githubmac body {
+  background-image: url('../assets/images/githubmac.jpg');
+}
+
 html.started body {
   background-image: url('../assets/images/started.gif');
+}
+
+html.road body {
+  background-image: url('../assets/images/road.gif');
 }
 
 html.get body {
@@ -94,6 +125,14 @@ html.xdebug body {
 
 html.xhprof body {
   background-image: url('../assets/images/xhprof.jpg');
+}
+
+html.gitk body {
+  background-image: url('../assets/images/gitk.jpg');
+}
+
+html.tig body {
+  background-image: url('../assets/images/tig.gif');
 }
 
 html.devdesktop body {
@@ -152,6 +191,10 @@ html.charles body {
   background-image: url('../assets/images/charles.jpg');
 }
 
+html.barney body {
+  background-image: url('../assets/images/barney.gif');
+}
+
 html.mailcatcher body {
   background-image: url('../assets/images/mailcatcher.png');
 }
@@ -182,6 +225,18 @@ html.alfred body {
 
 html.cloak body {
   background-image: url('../assets/images/cloak.png');
+}
+
+html.automate body {
+  background-image: url('../assets/images/automate.gif');
+}
+
+html.type body {
+  background-image: url('../assets/images/type.gif');
+}
+
+html.spin body {
+  background-image: url('../assets/images/spin.gif');
 }
 
 html.late body {
